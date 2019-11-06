@@ -6,4 +6,6 @@ Google Document Test to Markdown
 
 Lorem ipsum..
 
+Nuova modifica
+
 .. bottom of content
