@@ -37,7 +37,7 @@ Lo scenario di utilizzo è descritto dal seguente caso d&#39;uso nominale:
 
 L&#39;evoluzione nel tempo del processo di pagamento è la seguente:
 
-![Pagamento presso EC.\label(diagramma sequenza di pagamento iniziato presso EC)](diagrams/sd_pagamento_presso_ec.svg)
+![Pagamento presso EC.\label(diagramma sequenza di pagamento iniziato presso EC)](../diagrams/sd_pagamento_presso_ec.png)
 
 **Figura**  **1**** : Diagramma di sequenza del processo di pagamento iniziato presso l&#39;EC**
 
@@ -128,6 +128,7 @@ Indipendentemente dal servizio di pagamento selezionato, l&#39;Utilizzatore fina
 
 1.
   1.
+
     1. 9.2.1Caso acquisto Marca da bollo digitale
 
 Il pagamento di una Marca da Bollo Digitale avviene attraverso il medesimo _workflow_ applicativo decritto nel paragrafo precedente. Si fa presente che sarà necessario valorizzare nella RPT la struttura dati descritta al §8.2.2.
