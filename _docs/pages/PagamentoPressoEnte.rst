@@ -79,15 +79,14 @@ interattiva di selezione del PSP**
 
 L’evoluzione nel tempo del processo di pagamento è la seguente:
 
-.. figure:: ../diagrams/sd_pagamento_presso_ec.png
+.. figure:: diagrams/sd_pagamento_presso_ec.png
    :alt: Pagamento presso EC.:raw-latex:`\label`(diagramma sequenza di
    pagamento iniziato presso EC)
 
    Pagamento presso EC.:raw-latex:`\label`(diagramma sequenza di
    pagamento iniziato presso EC)
 
-**Figura** **1: Diagramma di sequenza del processo di pagamento iniziato
-presso l'EC**
+
 
 1. L’Utilizzatore finale, dopo aver eseguito le operazioni di
    composizione del carrello, esegue il *check-out* sul Portale dell’EC.
