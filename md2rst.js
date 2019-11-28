@@ -30,7 +30,7 @@ fs.readdir(path.join(__dirname,'pages'), function (err, files) {
 		outFile=path.join(outDirectoryPath, rstFile);
 		console.log(file + '-> '+ outFile)
 		args = stdArgs + ' -o ' + outFile;
-		pandoc(file, args,function(err,result){
+		pandoc(path.join(__dirname,'pages',file), args,function(err,result){
 			if (err) console.log('unable to convert :' + err);
 			return result;
 		});
