@@ -1,7 +1,7 @@
-  ----------------------------------------------------
+----------------------------------------------------
   **SEZIONE I -- FUNZIONAMENTO GENERALE DEL SISTEMA**
 
-  ----------------------------------------------------
+----------------------------------------------------
 
 Funzionamento generale del sistema
 ==================================
@@ -113,7 +113,7 @@ soggetti coinvolti:
 |                                   | istituto tesoriere.               |
 +-----------------------------------+-----------------------------------+
 
-![image0](media_FunzionamentoGeneraleDelSistema/media/image1.png){width="3.39472in"
+![image0](../images/image1.png){width="3.39472in"
 height="2.11312in"}
 
 **Figura 1 -- EPC Four Corners model**
@@ -168,7 +168,7 @@ Creditori, la necessità di effettuare pagamenti a favore di questi
 ultimi è associata a procedimenti amministrativi che, in linea generale,
 seguono un preordinato "Ciclo di vita" schematizzato nella Figura 2.
 
-![image1](media_FunzionamentoGeneraleDelSistema/media/image2.png){width="6.43198in"
+![image1](../images/image2.png){width="6.43198in"
 height="0.93413in"}
 
 **Figura 2 - Ciclo di vita del pagamento**
