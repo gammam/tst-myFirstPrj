@@ -16,4 +16,4 @@ Specifiche Attuative del Nodo dei Pagamenti-SPC versione 2.2.6
    :numbered:
    :hidden:
 
-   _docs\sezione3-specifiche-tecniche
+   _docs\sezione3-specifiche-tecniche\index
