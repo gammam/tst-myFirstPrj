@@ -6,6 +6,7 @@ const fs = require('fs');
 const  __rootDir = path.dirname(__dirname,'..');
 const directoryPath = path.join(__rootDir, 'puml-diagrams');
 const outDirectoryPath = path.join(__rootDir, '_docs','diagrams');
+const outDirectoryPathMD = path.join(__rootDir,'diagrams');
 
 if (!fs.existsSync(outDirectoryPath)) {
     fs.mkdirSync(outDirectoryPath,{recursive:true});
@@ -29,9 +30,13 @@ fs.readdir(directoryPath, function (err, files) {
 	    pngFile = file.substr(0, pos < 0 ? file.length : pos) + ".png";
 	   
 		var gen = plantuml.generate(path.join(directoryPath,file),{format: "png"});
+		
+		gen.out.pipe( fs.createWriteStream(path.join(outDirectoryPathMD,pngFile)) );
+		console.log(path.join(directoryPath,file) + '->' + path.join(outDirectoryPathMD,pngFile));
+		// copy for rst files
 		gen.out.pipe( fs.createWriteStream(path.join(outDirectoryPath,pngFile)) );
 		console.log(path.join(directoryPath,file) + '->' + path.join(outDirectoryPath,pngFile));
-
+		
 	})
 });
 
