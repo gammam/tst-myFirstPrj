@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/gammam/tst-myFirstPrj#readme",
   "devDependencies": {
+    "fs-extra": "^8.1.0",
     "node-pandoc": "^0.3.0",
-    "node-plantuml": "^0.9.0"
+    "node-plantuml": "^0.9.0",
+    "pwd-fs": "^1.2.12"
   }
 }

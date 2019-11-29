@@ -112,7 +112,7 @@ soggetti coinvolti:
 |                                   | istituto tesoriere.               |
 +-----------------------------------+-----------------------------------+
 
-.. figure:: media_FunzionamentoGeneraleDelSistema/media/image1.png
+.. figure:: ../images/image1.png
    :alt: image0
    :width: 3.39472in
    :height: 2.11312in
@@ -171,7 +171,7 @@ Creditori, la necessità di effettuare pagamenti a favore di questi
 ultimi è associata a procedimenti amministrativi che, in linea generale,
 seguono un preordinato “Ciclo di vita” schematizzato nella Figura 2.
 
-.. figure:: media_FunzionamentoGeneraleDelSistema/media/image2.png
+.. figure:: ../images/image2.png
    :alt: image1
    :width: 6.43198in
    :height: 0.93413in
