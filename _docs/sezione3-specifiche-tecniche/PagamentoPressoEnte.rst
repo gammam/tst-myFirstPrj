@@ -79,7 +79,7 @@ interattiva di selezione del PSP**
 
 L’evoluzione nel tempo del processo di pagamento è la seguente:
 
-.. figure:: ../diagrams/sd_pagamento_presso_ec.png
+.. figure:: /../diagrams/sd_pagamento_presso_ec.png
    :alt: Pagamento presso EC.:raw-latex:`\label`(diagramma sequenza di
    pagamento iniziato presso EC)
 
