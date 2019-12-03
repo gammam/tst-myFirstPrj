@@ -16,4 +16,5 @@ Sezione 3 - Specifiche Tecniche
    :numbered:
    :hidden:
 
+   modello-dei-dati
    PagamentoPressoEnte
