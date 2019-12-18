@@ -269,8 +269,7 @@ l'*Acquirer* non autorizza il pagamento con carta.
   Post-condizione   Lo stato del pagamento transisce a *Pagamento rifiutato*
   -------------------------------------------------------------------------------
 
-![SD\_PRENOTAZIONE\_RIFIUTATA](media_PagamentoPressoEnte/media/image2.png){width="6.6875in"
-height="3.30208in"}
+![PRENOTAZIONE RIFIUTATA](../diagrams/sdd_err_prenotazione.png)
 
 **Figura** **2: Diagramma di sequenza della prenotazione rifiutata**
 
@@ -321,8 +320,7 @@ riportate nel Paragrafo precedente.
   Post-condizione   Lo stato del pagamento transisce a *RPT Rifiutata*
   ------------------------------------------------------------------------
 
-![image2](media_PagamentoPressoEnte/media/image3.png){width="6.68889in"
-height="2.4625in"}
+![RPT rifiutata](../diagrams/sdd_err_RPT_rifiutata_PSP.png)
 
 **Figura** **3: Scenario RPT rifiutata dal Nodo**
 
@@ -397,7 +395,7 @@ rifiutato dal Nodo**
                     rifiutato*
   ------------------------------------------------------------------------
 
-![SD\_ERR\_PAGAMENTO\_NON\_CONTABILIZZATO](media_PagamentoPressoEnte/media/image4.png){width="6.6875in"
+![PAGAMNETO NON CONTABILIZZATO](../diagrams/sdd_err_contabillizzaione.png){width="6.6875in"
 height="5.97917in"}
 
 **Figura** **4: Diagramma di sequenza del pagamento non contabilizzato**
@@ -472,7 +470,7 @@ Lo stato del pagamento transisce a *RT PSP.*
 | ost-condizione |                                                     |
 +----------------+-----------------------------------------------------+
 
-![SD\_RT\_RIFIUTATA\_NODO](media_PagamentoPressoEnte/media/image5.png){width="4.11458in"
+![Rifutata Nodo](../diagrams/sdd_err_inviaRT_mod1.png){width="4.11458in"
 height="2.25in"}
 
 **Figura** **5: Scenario RT rifiutata Nodo**
@@ -532,7 +530,7 @@ Nodo**
   Post-condizione   Lo stato del pagamento permane in RT\_PSP
   -------------------------------------------------------------------------------
 
-![sd\_RT\_RIUTATA\_EC](media_PagamentoPressoEnte/media/image6.png){width="5.72917in"
+![RT Rifutata EC](../diagrams/sdd_err_inviaRT_EC.png){width="5.72917in"
 height="2.79167in"}
 
 **Figura** **6: Scenario RT rifiutata dall\'EC**
