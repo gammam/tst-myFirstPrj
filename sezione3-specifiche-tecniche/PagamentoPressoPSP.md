@@ -105,7 +105,7 @@ Pagamento mediante Avviso (scenario principale)
 |                                      | stato *RT EC*.                       |
 +--------------------------------------+--------------------------------------+
 
-![Pagamento mediante Avviso](../diagrams/sdd_pagamento_presso_psp)
+![](../diagrams/sdd_pagamento_presso_psp.png)
 
 **Figura** **1: Pagamento mediante Avviso**
 
@@ -275,7 +275,7 @@ Pagamento mediante Avviso (scenario alternativo) DEPRECATO
 |                                      | stato RT EC.                         |
 +--------------------------------------+--------------------------------------+
 
-![alternativo](../diagrams/sdd_pagamento_presso_psp_alternativo.png)
+![](../diagrams/sdd_pagamento_presso_psp_alternativo.png)
 
 **Figura** **2: Diagramma di sequenza del pagamento con avviso di
 pagamento ( scenario alternativo)**
@@ -411,7 +411,7 @@ Pagamento spontaneo
 -------------------
 
   ----------- ------------------------------------------------
-  ![wip](../images/wip.png)    
+  ![](../images/wip.png)    
   ----------- ------------------------------------------------
 
 +--------------------------------------+--------------------------------------+
@@ -516,7 +516,7 @@ Paragrafo precedente.
 |                                      | modificato                           |
 +--------------------------------------+--------------------------------------+
 
-![image3](../diagrams/sdd_err_attivaRPT.png)
+![](../diagrams/sdd_err_attivaRPT.png)
 
 **Figura** **3: Errore di Attivazione/Verifica**
 
@@ -615,7 +615,7 @@ Le possibili azioni di controllo sono riportate nella Tabella seguente:
 |                                      | modificato                           |
 +--------------------------------------+--------------------------------------+
 
-![Pagamento non eseguibile](../diagrams/sdd_err_attivaRPT_EC.png)
+![](../diagrams/sdd_err_attivaRPT_EC.png)
 
 **Figura** **4: Pagamento non eseguibile**
 
@@ -744,7 +744,7 @@ Le possibili azioni di controllo sono riportate nella Tabella seguente.
 | Post-Condizione                      | N/A                                  |
 +--------------------------------------+--------------------------------------+
 
-![assenzaRPT](../diagrams/sdd_err_attivaRPT_consegnaRPT.png)
+![](../diagrams/sdd_err_attivaRPT_consegnaRPT.png)
 
 **Figura** **5: Pagamento eseguito in assenza di RPT**
 
@@ -824,7 +824,7 @@ Le possibili azioni di controllo sono riportate nella Tabella seguente.
 | izione    | variato.                                                       |
 +-----------+----------------------------------------------------------------+
 
-![image6](../diagrams/sdd_err_inviaRT.png)
+![](../diagrams/sdd_err_inviaRT.png)
 
 **Figura** **6: RT respinta dal NodoSPC**
 
@@ -899,7 +899,7 @@ Le possibili azioni di controllo sono riportate nella Tabella seguente.
 |                                      | attraverso la modalità PULL          |
 +--------------------------------------+--------------------------------------+
 
-![RT non consegnata](../diagrams/sdd_err_rt_non_consegnata.png)
+![](../diagrams/sdd_err_rt_non_consegnata.png)
 
 **Figura** **7: RT non consegnata all’EC**
 

@@ -79,12 +79,7 @@ interattiva di selezione del PSP**
 
 L’evoluzione nel tempo del processo di pagamento è la seguente:
 
-.. figure:: ../diagrams/sd_pagamento_presso_ec.png
-   :alt: Pagamento presso EC.:raw-latex:`\label`(diagramma sequenza di
-   pagamento iniziato presso EC)
-
-   Pagamento presso EC.:raw-latex:`\label`(diagramma sequenza di
-   pagamento iniziato presso EC)
+|image0|
 
 **Figura** **1: Diagramma di sequenza del processo di pagamento iniziato
 presso l'EC**
@@ -281,10 +276,7 @@ l’\ *Acquirer* non autorizza il pagamento con carta.
 | st-condizione | rifiutato*                                           |
 +---------------+------------------------------------------------------+
 
-.. figure:: ../diagrams/sdd_err_prenotazione.png
-   :alt: PRENOTAZIONE RIFIUTATA
-
-   PRENOTAZIONE RIFIUTATA
+|image1|
 
 **Figura** **2: Diagramma di sequenza della prenotazione rifiutata**
 
@@ -337,10 +329,7 @@ riportate nel Paragrafo precedente.
 | ost-condizione |                                                     |
 +----------------+-----------------------------------------------------+
 
-.. figure:: ../diagrams/sdd_err_RPT_rifiutata_PSP.png
-   :alt: RPT rifiutata
-
-   RPT rifiutata
+|image2|
 
 **Figura** **3: Scenario RPT rifiutata dal Nodo**
 
@@ -433,12 +422,7 @@ rifiutato dal Nodo**
 | ost-condizione | rifiutato*                                          |
 +----------------+-----------------------------------------------------+
 
-.. figure:: ../diagrams/sdd_err_contabillizzaione.png
-   :alt: PAGAMNETO NON CONTABILIZZATO
-   :width: 6.6875in
-   :height: 5.97917in
-
-   PAGAMNETO NON CONTABILIZZATO
+|image3|
 
 **Figura** **4: Diagramma di sequenza del pagamento non contabilizzato**
 
@@ -517,12 +501,7 @@ Lo stato del pagamento transisce a *RT PSP.*
 | ost-condizione |                                                     |
 +----------------+-----------------------------------------------------+
 
-.. figure:: ../diagrams/sdd_err_inviaRT_mod1.png
-   :alt: Rifutata Nodo
-   :width: 4.11458in
-   :height: 2.25in
-
-   Rifutata Nodo
+|image4|
 
 **Figura** **5: Scenario RT rifiutata Nodo**
 
@@ -589,12 +568,7 @@ Nodo**
 | st-condizione |                                                      |
 +---------------+------------------------------------------------------+
 
-.. figure:: ../diagrams/sdd_err_inviaRT_EC.png
-   :alt: RT Rifutata EC
-   :width: 5.72917in
-   :height: 2.79167in
-
-   RT Rifutata EC
+|image5|
 
 **Figura** **6: Scenario RT rifiutata dall'EC**
 
@@ -626,3 +600,10 @@ L’evoluzione temporale è la seguente:
 |                   | PPT_ERRORE_EMESSO_DA_PAA | Attivazione TAVOLO    |
 |                   |                          | OPERATIVO             |
 +-------------------+--------------------------+-----------------------+
+
+.. |image0| image:: ../diagrams/sd_pagamento_presso_ec.png
+.. |image1| image:: ../diagrams/sdd_err_prenotazione.png
+.. |image2| image:: ../diagrams/sdd_err_RPT_rifiutata_PSP.png
+.. |image3| image:: ../diagrams/sdd_err_contabillizzaione.png
+.. |image4| image:: ../diagrams/sdd_err_inviaRT_mod1.png
+.. |image5| image:: ../diagrams/sdd_err_inviaRT_EC.png

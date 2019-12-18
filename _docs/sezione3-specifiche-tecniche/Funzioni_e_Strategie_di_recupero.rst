@@ -18,10 +18,7 @@ attori coinvolti. A sua volta, anche il NodoSPC, in qualità di fruitore,
 utilizza le funzionalità ausiliarie messe a disposizione dai PSP per la
 verifica e gestione degli errori nei processi di pagamento.
 
-.. figure:: ../diagrams/uc_funzioni_recupero.png
-   :alt: Intro
-
-   Intro
+|image0|
 
 **Figura** **1: Rappresentazione degli erogatori e fruitori delle
 funzionalità di supporto**
@@ -62,10 +59,7 @@ recapitata.
 
 **Tabella** **1: Richiesta della copia di una RT**
 
-   .. figure:: ../diagrams/sdd_nodoInviaCopiaRT.png
-      :alt: nodoChiediCopiaRT
-
-      nodoChiediCopiaRT
+   |image1|
 
 **Figura** **2: Richiesta della copia di una RT**
 
@@ -114,10 +108,7 @@ RT.
 
 **Tabella** **2: Richiesta della Lista delle RPT Pendenti**
 
-.. figure:: ../diagrams/sdd_nodoChiediListaRPTPendenti.png
-   :alt: nodoChiediRPTPendenti
-
-   nodoChiediRPTPendenti
+|image2|
 
 **Figura** **3: Richiesta della Lista delle RPT Pendenti**
 
@@ -156,10 +147,7 @@ Verifica dello stato di una RPT
 
 **Tabella** **3: Verifica dello stato di una RPT**
 
-.. figure:: ../diagrams/sdd_nodoChiediStatoRPT.png
-   :alt: nodoChiediStatoRPT
-
-   nodoChiediStatoRPT
+|image3|
 
 **Figura** **4: Verifica dello stato di una RPT**
 
@@ -224,10 +212,7 @@ Richiesta Catalogo Dati Informativi
 
 **Tabella** **4: Richiesta Catalogo Dati Informativi**
 
-.. figure:: ../diagrams/sdd_nodoChiediInformativaPSP.png
-   :alt: image4
-
-   image4
+|image4|
 
 **Figura** **5: Richiesta Catalogo Dati Informativi**
 
@@ -281,10 +266,7 @@ utilizzare nell’ambito del Pagamento Spontaneo presso i PSP.
 
 **Tabella** **5: Richiesta del Catalogo dei Servizi**
 
-.. figure:: ../diagrams/sdd_nodoChiediCatalogoServizi.png
-   :alt: SD_nodoChiediCatalogoServizi
-
-   SD_nodoChiediCatalogoServizi
+|image5|
 
 **Figura** **6: Richiesta del Catalogo dei Servizi**
 
@@ -321,10 +303,7 @@ aggiornamenti
 
 **Tabella** **6: Richiesta template del Catalogo Dati Informativi**
 
-.. figure:: ../diagrams/sdd_nodoChiediTemplateInformativaPSP.png
-   :alt: SD_nodoChiediTemplateInformativaPSP
-
-   SD_nodoChiediTemplateInformativaPSP
+|image6|
 
 **Figura** **7: Richiesta template del Catalogo Dati Informativi**
 
@@ -363,10 +342,7 @@ Richiesta informativa PA
 
 **Tabella** **7: Richiesta informativa PA**
 
-.. figure:: sdd_nodoChiediInformativaPA.png
-   :alt: SD_nodoChiediInformativaPA
-
-   SD_nodoChiediInformativaPA
+|image7|
 
 **Figura** **8: Richiesta informativa PA**
 
@@ -405,10 +381,7 @@ Richiesta Stato Elaborazione Flusso di Rendicontazione
 **Tabella** **8: Richiesta Stato Elaborazione Flusso di
 Rendicontazione**
 
-.. figure:: ../diagrams/sdd_nodoChiediStatoElaborazioneFlussoRendicontazione.png
-   :alt: sd_nodoChiediStatoElaborazioneFlussoRendicontazione
-
-   sd_nodoChiediStatoElaborazioneFlussoRendicontazione
+|image8|
 
 **Figura** **9: Richiesta Stato Elaborazione Flusso di Rendicontazione**
 
@@ -582,10 +555,7 @@ Richiesta avanzamento RPT
 
 **Tabella** **10: Richiesta avanzamento RPT**
 
-.. figure:: ../diagrams/sdd_pspChiediAvanzamentoRPT.png
-   :alt: pspChiediAvanzamentoRPT
-
-   pspChiediAvanzamentoRPT
+|image9|
 
 **Figura** **11: Richiesta avanzamento RPT**
 
@@ -634,10 +604,7 @@ Richiesta di avanzamento RT
 
 **Tabella** **11: Richiesta di avanzamento RT**
 
-.. figure:: ../diagrams/sdd_pspChiediAvamentoRT.png
-   :alt: pspChiediAvanzamentoRT
-
-   pspChiediAvanzamentoRT
+|image10|
 
 **Figura** **12: Richiesta di avanzamento RT**
 
@@ -656,3 +623,15 @@ Richiesta di avanzamento RT
    -  CANALE_RT_SCONOSCIUTA: non è stata trovata la RT per la quale si
       richiede di conoscere lo stato di avanzamento
    -  CANALE_RT_RIFIUTATA_EC: la RT è stata rifiutata dall’EC.
+
+.. |image0| image:: ../diagrams/uc_funzioni_recupero.png
+.. |image1| image:: ../diagrams/sdd_nodoInviaCopiaRT.png
+.. |image2| image:: ../diagrams/sdd_nodoChiediListaRPTPendenti.png
+.. |image3| image:: ../diagrams/sdd_nodoChiediStatoRPT.png
+.. |image4| image:: ../diagrams/sdd_nodoChiediInformativaPSP.png
+.. |image5| image:: ../diagrams/sdd_nodoChiediCatalogoServizi.png
+.. |image6| image:: ../diagrams/sdd_nodoChiediTemplateInformativaPSP.png
+.. |image7| image:: sdd_nodoChiediInformativaPA.png
+.. |image8| image:: ../diagrams/sdd_nodoChiediStatoElaborazioneFlussoRendicontazione.png
+.. |image9| image:: ../diagrams/sdd_pspChiediAvanzamentoRPT.png
+.. |image10| image:: ../diagrams/sdd_pspChiediAvamentoRT.png

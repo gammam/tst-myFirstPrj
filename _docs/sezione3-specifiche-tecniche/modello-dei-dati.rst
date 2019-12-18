@@ -30,12 +30,7 @@ dei seguenti eventi:
 Il seguente *class diagram* mostra le relazioni che si instaurano tra
 gli elementi durante un tentativo di pagamento andato a buon fine.
 
-.. figure:: media_ModelloDati/media/image1.png
-   :alt: image0
-   :width: 3.46528in
-   :height: 3.09375in
-
-   image0
+|image0|
 
 **Figura** **1: Diagramma delle classi del pagamento**
 
@@ -107,12 +102,7 @@ attributi che vengono utilizzati per filtrare i PSP in grado di erogare
 il servizio di pagamento richiesto durante il processo di selezione
 degli stessi da parte dell’Utilizzatore finale.
 
-.. figure:: media_ModelloDati/media/image3.png
-   :alt: image2
-   :width: 1.27917in
-   :height: 3.46181in
-
-   image2
+|image1|
 
 **Figura** **3: Diagramma delle classi del versamento**
 
@@ -220,12 +210,7 @@ da una richiesta di pagamento (RPT) ed attesta, qualora l’esito sia
 positivo, l’esecuzione del versamento e la chiusura della Posizione
 Debitoria.
 
-.. figure:: ../diagrams/cd_RT.png
-   :alt: image3
-   :width: 6.69306in
-   :height: 1.56042in
-
-   image3
+|image2|
 
 **Figura** **4: Diagramma delle classi della RT**
 
@@ -261,12 +246,7 @@ Richiesta di revoca (RR)
 La RR contiene tutte le informazioni necessarie per gestire sia la
 revoca che lo storno di un pagamento, definiti in sezione II.
 
-.. figure:: ../diagrams/cd_RR.png
-   :alt: image4
-   :width: 6.69306in
-   :height: 2.10764in
-
-   image4
+|image3|
 
 **Figura** **5: Diagramma delle classi della Richiesta di Revoca**
 
@@ -322,14 +302,8 @@ ai soggetti interessati a cura del PSP che ha effettuato l’operazione di
 accredito. Il FR deve essere reso disponibile all’EC nella giornata
 successiva a quella durante la quale è stato disposto il bonifico (D+2).
 
-.. figure:: ../diagrams/cd_FR.png
-   :alt: image6
-   :width: 6.69306in
-   :height: 2.77083in
-
-   image6
-
-**Figura** **7: Diagramma delle classi del Flusso di Rendicontazione**
+|image4| **Figura** **7: Diagramma delle classi del Flusso di
+Rendicontazione**
 
 In particolare, il FR è identificato dai seguenti parametri:
 
@@ -370,12 +344,7 @@ aderenti (EC e PSP) ed il NodoSPC, i relativi messaggi di errore vengono
 descritti utilizzando la struttura **faultBean** mostrata nel seguente
 diagramma.
 
-.. figure:: ../diagrams/cd_fault_bean.png
-   :alt: image6
-   :width: 6.69306in
-   :height: 2.77083in
-
-   image6
+|image5|
 
 **Figura** **8: Oggetto faultBean**
 
@@ -668,8 +637,9 @@ Avvisatura digitale
 -------------------
 
 +----------------------------------------+-----------------------------+
-| |image8|\ {width=“0.81568in”           | getto a proposta di         |
-| \**Paragrafo sog height=“0.4403in”}    | modifica*\*                 |
+| |image6|\ {width=“0.81568in”           | a proposta di modifica*\*   |
+| \**Paragrafo soggetto                  |                             |
+| height=“0.4403in”}                     |                             |
 +----------------------------------------+-----------------------------+
 
 Questo paragrafo descrive gli elementi scambiati tra il NodoSPC e gli
@@ -788,12 +758,7 @@ Iscrizione al servizio
 Definisce lo schema secondo il quale un PSP richiede al NodoSPC di
 ricevere le avvisature destinate ad un Soggetto Pagatore.
 
-.. figure:: media_ModelloDati/media/image13.png
-   :alt: image12
-   :width: 2.98958in
-   :height: 2.125in
-
-   image12
+|image7|
 
 **Figura** **12: Diagramma delle classi dell’iscrizione al servizio**
 
@@ -839,12 +804,7 @@ deve essere resa disponibile alle controparti è raccolta nel documento
 Tabella delle Controparti che il NodoSPC rende disponibile tramite
 primitive SOAP descritte fra le funzioni ausiliarie.
 
-.. figure:: ../diagrams/cd_COnfigurazioneEnti.png
-   :alt: cd_ConfigurazioneEnti
-   :width: 6.38958in
-   :height: 4.68194in
-
-   cd_ConfigurazioneEnti
+|image8|
 
 **Figura** **13: Diagramma delle classi per la configurazione di un EC**
 
@@ -861,12 +821,7 @@ caratterizzato dalle seguenti proprietà:
 -  specifica sulla pubblicazione delle informazioni;
 -  dettaglio dei servizi di pagamento attivati (canali).
 
-.. figure:: ../diagrams/cd_ConfigurazionePSP.png
-   :alt: image14
-   :width: 5.4875in
-   :height: 5.29221in
-
-   image14
+|image9|
 
 **Figura** **14: Diagramma delle classi per la configurazione di un
 PSP**
@@ -1479,4 +1434,15 @@ pagamento) così valorizzando i seguenti campi del giornale:
 -  *categoriaEvento* a “INTERNO”;
 -  *identificativoErogatore* a “GENERAZIONE-RT”.
 
-.. |image8| image:: ../images/wip.png
+.. |image0| image:: ../diagrams/cd_posizione_debitoria.png
+.. |image1| image:: ../diagrams/cd_versamento.png
+.. |image2| image:: ../diagrams/cd_RT.png
+.. |image3| image:: ../diagrams/cd_RR.png
+.. |image4| image:: ../diagrams/cd_FR.png
+.. |image5| image:: ../diagrams/cd_fault_bean.png
+.. |image6| image:: ../images/wip.png
+.. |image7| image:: ../diagrams/cd_IscrizioneServizio.png
+   :width: 2.98958in
+   :height: 2.125in
+.. |image8| image:: ../diagrams/cd_ConfigurazioneEnti.png
+.. |image9| image:: ../diagrams/cd_ConfigurazionePSP.png

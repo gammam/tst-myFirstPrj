@@ -30,8 +30,7 @@ dei seguenti eventi:
 Il seguente *class diagram* mostra le relazioni che si instaurano tra
 gli elementi durante un tentativo di pagamento andato a buon fine.
 
-![image0](media_ModelloDati/media/image1.png){width="3.46528in"
-height="3.09375in"}
+![](../diagrams/cd_posizione_debitoria.png)
 
 **Figura** **1: Diagramma delle classi del pagamento**
 
@@ -99,8 +98,7 @@ attributi che vengono utilizzati per filtrare i PSP in grado di erogare
 il servizio di pagamento richiesto durante il processo di selezione
 degli stessi da parte dell'Utilizzatore finale.
 
-![image2](media_ModelloDati/media/image3.png){width="1.27917in"
-height="3.46181in"}
+![](../diagrams/cd_versamento.png)
 
 **Figura** **3: Diagramma delle classi del versamento**
 
@@ -204,8 +202,7 @@ da una richiesta di pagamento (RPT) ed attesta, qualora l'esito sia
 positivo, l'esecuzione del versamento e la chiusura della Posizione
 Debitoria.
 
-![image3](../diagrams/cd_RT.png){width="6.69306in"
-height="1.56042in"}
+![](../diagrams/cd_RT.png)
 
 **Figura** **4: Diagramma delle classi della RT**
 
@@ -239,8 +236,7 @@ generati dal PSP:
 La RR contiene tutte le informazioni necessarie per gestire sia la
 revoca che lo storno di un pagamento, definiti in sezione II.
 
-![image4](../diagrams/cd_RR.png){width="6.69306in"
-height="2.10764in"}
+![](../diagrams/cd_RR.png)
 
 **Figura** **5: Diagramma delle classi della Richiesta di Revoca**
 
@@ -291,9 +287,7 @@ ai soggetti interessati a cura del PSP che ha effettuato l'operazione di
 accredito. Il FR deve essere reso disponibile all'EC nella giornata
 successiva a quella durante la quale è stato disposto il bonifico (D+2).
 
-![image6](../diagrams/cd_FR.png){width="6.69306in"
-height="2.77083in"}
-
+![](../diagrams/cd_FR.png)
 **Figura** **7: Diagramma delle classi del Flusso di Rendicontazione**
 
 In particolare, il FR è identificato dai seguenti parametri:
@@ -332,8 +326,7 @@ aderenti (EC e PSP) ed il NodoSPC, i relativi messaggi di errore vengono
 descritti utilizzando la struttura **faultBean** mostrata nel seguente
 diagramma.
 
-![image6](../diagrams/cd_fault_bean.png){width="6.69306in"
-height="2.77083in"}
+![](../diagrams/cd_fault_bean.png)
 
 **Figura** **8: Oggetto faultBean**
 
@@ -600,7 +593,7 @@ Avvisatura digitale
 -------------------
 
 ----------------------------------------------------------------- -----------------------------------------------
-  ![image8](../images/wip.png){width="0.81568in"   **Paragrafo soggetto a proposta di modifica**
+  ![](../images/wip.png){width="0.81568in"   **Paragrafo soggetto a proposta di modifica**
   height="0.4403in"}                                                
 
 ----------------------------------------------------------------- -----------------------------------------------
@@ -706,7 +699,7 @@ L'esito di un avvisatura è descritto dai seguenti parametri:
 Definisce lo schema secondo il quale un PSP richiede al NodoSPC di
 ricevere le avvisature destinate ad un Soggetto Pagatore.
 
-![image12](media_ModelloDati/media/image13.png){width="2.98958in"
+![](../diagrams/cd_IscrizioneServizio.png){width="2.98958in"
 height="2.125in"}
 
 **Figura** **12: Diagramma delle classi dell'iscrizione al servizio**
@@ -751,8 +744,7 @@ deve essere resa disponibile alle controparti è raccolta nel documento
 Tabella delle Controparti che il NodoSPC rende disponibile tramite
 primitive SOAP descritte fra le funzioni ausiliarie.
 
-![cd\_ConfigurazioneEnti](../diagrams/cd_COnfigurazioneEnti.png){width="6.38958in"
-height="4.68194in"}
+![](../diagrams/cd_ConfigurazioneEnti.png)
 
 **Figura** **13: Diagramma delle classi per la configurazione di un EC**
 
@@ -768,8 +760,7 @@ caratterizzato dalle seguenti proprietà:
 -   specifica sulla pubblicazione delle informazioni;
 -   dettaglio dei servizi di pagamento attivati (canali).
 
-![image14](../diagrams/cd_ConfigurazionePSP.png){width="5.4875in"
-height="5.29221in"}
+![](../diagrams/cd_ConfigurazionePSP.png)
 
 **Figura** **14: Diagramma delle classi per la configurazione di un
 PSP**

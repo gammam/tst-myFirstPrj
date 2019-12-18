@@ -18,7 +18,7 @@ attori coinvolti. A sua volta, anche il NodoSPC, in qualità di fruitore,
 utilizza le funzionalità ausiliarie messe a disposizione dai PSP per la
 verifica e gestione degli errori nei processi di pagamento.
 
-![Intro](../diagrams/uc_funzioni_recupero.png)
+![](../diagrams/uc_funzioni_recupero.png)
 
 **Figura** **1: Rappresentazione degli erogatori e fruitori delle
 funzionalità di supporto**
@@ -53,7 +53,7 @@ recapitata.
 
 **Tabella** **1: Richiesta della copia di una RT**
 
-> ![nodoChiediCopiaRT](../diagrams/sdd_nodoInviaCopiaRT.png)
+> ![](../diagrams/sdd_nodoInviaCopiaRT.png)
 
 **Figura** **2: Richiesta della copia di una RT**
 
@@ -98,7 +98,7 @@ RT.
 
 **Tabella** **2: Richiesta della Lista delle RPT Pendenti**
 
-![nodoChiediRPTPendenti](../diagrams/sdd_nodoChiediListaRPTPendenti.png)
+![](../diagrams/sdd_nodoChiediListaRPTPendenti.png)
 
 **Figura** **3: Richiesta della Lista delle RPT Pendenti**
 
@@ -133,7 +133,7 @@ RT.
 
 **Tabella** **3: Verifica dello stato di una RPT**
 
-![nodoChiediStatoRPT](../diagrams/sdd_nodoChiediStatoRPT.png)
+![](../diagrams/sdd_nodoChiediStatoRPT.png)
 
 **Figura** **4: Verifica dello stato di una RPT**
 
@@ -190,7 +190,7 @@ L’evoluzione temporale è la seguente:
 
 **Tabella** **4: Richiesta Catalogo Dati Informativi**
 
-![image4](../diagrams/sdd_nodoChiediInformativaPSP.png)
+![](../diagrams/sdd_nodoChiediInformativaPSP.png)
 
 **Figura** **5: Richiesta Catalogo Dati Informativi**
 
@@ -242,7 +242,7 @@ utilizzare nell’ambito del Pagamento Spontaneo presso i PSP.
 
 **Tabella** **5: Richiesta del Catalogo dei Servizi**
 
-![SD\_nodoChiediCatalogoServizi](../diagrams/sdd_nodoChiediCatalogoServizi.png)
+![](../diagrams/sdd_nodoChiediCatalogoServizi.png)
 
 **Figura** **6: Richiesta del Catalogo dei Servizi**
 
@@ -276,7 +276,7 @@ aggiornamenti
 
 **Tabella** **6: Richiesta template del Catalogo Dati Informativi**
 
-![SD\_nodoChiediTemplateInformativaPSP](../diagrams/sdd_nodoChiediTemplateInformativaPSP.png)
+![](../diagrams/sdd_nodoChiediTemplateInformativaPSP.png)
 
 **Figura** **7: Richiesta template del Catalogo Dati Informativi**
 
@@ -311,7 +311,7 @@ aggiornamenti
 
 **Tabella** **7: Richiesta informativa PA**
 
-![SD\_nodoChiediInformativaPA](sdd_nodoChiediInformativaPA.png)
+![](sdd_nodoChiediInformativaPA.png)
 
 **Figura** **8: Richiesta informativa PA**
 
@@ -344,7 +344,7 @@ aggiornamenti
 **Tabella** **8: Richiesta Stato Elaborazione Flusso di
 Rendicontazione**
 
-![sd\_nodoChiediStatoElaborazioneFlussoRendicontazione](../diagrams/sdd_nodoChiediStatoElaborazioneFlussoRendicontazione.png)
+![](../diagrams/sdd_nodoChiediStatoElaborazioneFlussoRendicontazione.png)
 
 **Figura** **9: Richiesta Stato Elaborazione Flusso di Rendicontazione**
 
@@ -508,7 +508,7 @@ Funzioni Ausiliarie per il NodoSPC
 
 **Tabella** **10: Richiesta avanzamento RPT**
 
-![pspChiediAvanzamentoRPT](../diagrams/sdd_pspChiediAvanzamentoRPT.png)
+![](../diagrams/sdd_pspChiediAvanzamentoRPT.png)
 
 **Figura** **11: Richiesta avanzamento RPT**
 
@@ -550,7 +550,7 @@ Funzioni Ausiliarie per il NodoSPC
 
 **Tabella** **11: Richiesta di avanzamento RT**
 
-![pspChiediAvanzamentoRT](../diagrams/sdd_pspChiediAvamentoRT.png)
+![](../diagrams/sdd_pspChiediAvamentoRT.png)
 
 **Figura** **12: Richiesta di avanzamento RT**
 
