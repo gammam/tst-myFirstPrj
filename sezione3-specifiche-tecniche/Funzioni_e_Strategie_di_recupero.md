@@ -311,7 +311,7 @@ aggiornamenti
 
 **Tabella** **7: Richiesta informativa PA**
 
-![](sdd_nodoChiediInformativaPA.png)
+![](../diagrams/sdd_nodoChiediInformativaPA.png)
 
 **Figura** **8: Richiesta informativa PA**
 
@@ -409,7 +409,7 @@ Rendicontazione**
 
 **Tabella** **9: Strategie di retry per il recapito della RT**
 
-![image9](../diagrams/sdd_recovery_PULL.png)
+![](../diagrams/sdd_recovery_PULL.png)
 
 **Figura** **10: meccanismi di recovery per RT PUSH**
 
@@ -508,7 +508,7 @@ Funzioni Ausiliarie per il NodoSPC
 
 **Tabella** **10: Richiesta avanzamento RPT**
 
-![](../diagrams/sdd_pspChiediAvanzamentoRPT.png)
+![](../diagrams/sdd_pspChiediAvamentoRPT.png)
 
 **Figura** **11: Richiesta avanzamento RPT**
 

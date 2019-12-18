@@ -637,9 +637,8 @@ Avvisatura digitale
 -------------------
 
 +----------------------------------------+-----------------------------+
-| |image6|\ {width=“0.81568in”           | a proposta di modifica*\*   |
-| \**Paragrafo soggetto                  |                             |
-| height=“0.4403in”}                     |                             |
+| |image6| **Paragrafo soggetto a        |                             |
+| proposta di modifica**                 |                             |
 +----------------------------------------+-----------------------------+
 
 Questo paragrafo descrive gli elementi scambiati tra il NodoSPC e gli

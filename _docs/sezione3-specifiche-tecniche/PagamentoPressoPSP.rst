@@ -420,9 +420,7 @@ interface* messe a disposizione dal PSP.
 Pagamento spontaneo
 -------------------
 
-=========== ==========
-[](../image s/wip.png)
-=========== ==========
+|image2|
 
 +-----------------------------------+-----------------------------------+
 | Pre-condizioni                    | Un Ente Erogatore ha messo a      |
@@ -533,7 +531,7 @@ Paragrafo precedente.
 |                                   | modificato                        |
 +-----------------------------------+-----------------------------------+
 
-|image2|
+|image3|
 
 **Figura** **3: Errore di Attivazione/Verifica**
 
@@ -636,7 +634,7 @@ Le possibili azioni di controllo sono riportate nella Tabella seguente:
 |                                   | modificato                        |
 +-----------------------------------+-----------------------------------+
 
-|image3|
+|image4|
 
 **Figura** **4: Pagamento non eseguibile**
 
@@ -776,7 +774,7 @@ Le possibili azioni di controllo sono riportate nella Tabella seguente.
 | Post-Condizione                   | N/A                               |
 +-----------------------------------+-----------------------------------+
 
-|image4|
+|image5|
 
 **Figura** **5: Pagamento eseguito in assenza di RPT**
 
@@ -867,7 +865,7 @@ Le possibili azioni di controllo sono riportate nella Tabella seguente.
 | izione   |                                                           |
 +----------+-----------------------------------------------------------+
 
-|image5|
+|image6|
 
 **Figura** **6: RT respinta dal NodoSPC**
 
@@ -950,7 +948,7 @@ Le possibili azioni di controllo sono riportate nella Tabella seguente.
 |                                   | la modalità PULL                  |
 +-----------------------------------+-----------------------------------+
 
-|image6|
+|image7|
 
 **Figura** **7: RT non consegnata all’EC**
 
@@ -1070,8 +1068,9 @@ Le possibili azioni di controllo sono riportate nella Tabella seguente.
 
 .. |image0| image:: ../diagrams/sdd_pagamento_presso_psp.png
 .. |image1| image:: ../diagrams/sdd_pagamento_presso_psp_alternativo.png
-.. |image2| image:: ../diagrams/sdd_err_attivaRPT.png
-.. |image3| image:: ../diagrams/sdd_err_attivaRPT_EC.png
-.. |image4| image:: ../diagrams/sdd_err_attivaRPT_consegnaRPT.png
-.. |image5| image:: ../diagrams/sdd_err_inviaRT.png
-.. |image6| image:: ../diagrams/sdd_err_rt_non_consegnata.png
+.. |image2| image:: ../images/wip.png
+.. |image3| image:: ../diagrams/sdd_err_attivaRPT.png
+.. |image4| image:: ../diagrams/sdd_err_attivaRPT_EC.png
+.. |image5| image:: ../diagrams/sdd_err_attivaRPT_consegnaRPT.png
+.. |image6| image:: ../diagrams/sdd_err_inviaRT.png
+.. |image7| image:: ../diagrams/sdd_err_rt_non_consegnata.png

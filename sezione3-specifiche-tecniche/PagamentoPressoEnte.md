@@ -395,7 +395,7 @@ rifiutato dal Nodo**
                     rifiutato*
   ------------------------------------------------------------------------
 
-![](../diagrams/sdd_err_contabilizzaione.png)
+![](../diagrams/sdd_err_contabilizzazione.png)
 
 **Figura** **4: Diagramma di sequenza del pagamento non contabilizzato**
 

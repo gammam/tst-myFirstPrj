@@ -449,10 +449,7 @@ Strategie di *retry* per il recapito della RT
 
 **Tabella** **9: Strategie di retry per il recapito della RT**
 
-.. figure:: ../diagrams/sdd_recovery_PULL.png
-   :alt: image9
-
-   image9
+|image9|
 
 **Figura** **10: meccanismi di recovery per RT PUSH**
 
@@ -555,7 +552,7 @@ Richiesta avanzamento RPT
 
 **Tabella** **10: Richiesta avanzamento RPT**
 
-|image9|
+|image10|
 
 **Figura** **11: Richiesta avanzamento RPT**
 
@@ -604,7 +601,7 @@ Richiesta di avanzamento RT
 
 **Tabella** **11: Richiesta di avanzamento RT**
 
-|image10|
+|image11|
 
 **Figura** **12: Richiesta di avanzamento RT**
 
@@ -631,7 +628,8 @@ Richiesta di avanzamento RT
 .. |image4| image:: ../diagrams/sdd_nodoChiediInformativaPSP.png
 .. |image5| image:: ../diagrams/sdd_nodoChiediCatalogoServizi.png
 .. |image6| image:: ../diagrams/sdd_nodoChiediTemplateInformativaPSP.png
-.. |image7| image:: sdd_nodoChiediInformativaPA.png
+.. |image7| image:: ../diagrams/sdd_nodoChiediInformativaPA.png
 .. |image8| image:: ../diagrams/sdd_nodoChiediStatoElaborazioneFlussoRendicontazione.png
-.. |image9| image:: ../diagrams/sdd_pspChiediAvanzamentoRPT.png
-.. |image10| image:: ../diagrams/sdd_pspChiediAvamentoRT.png
+.. |image9| image:: ../diagrams/sdd_recovery_PULL.png
+.. |image10| image:: ../diagrams/sdd_pspChiediAvamentoRPT.png
+.. |image11| image:: ../diagrams/sdd_pspChiediAvamentoRT.png
