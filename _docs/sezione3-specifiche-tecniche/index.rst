@@ -18,3 +18,6 @@ Sezione 3 - Specifiche Tecniche
 
    modello-dei-dati
    PagamentoPressoEnte
+   PagamentoPressoPSP
+   Funzioni_e_Strategie_di_recupero
+   Backoffice

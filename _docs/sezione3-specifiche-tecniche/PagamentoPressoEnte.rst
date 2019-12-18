@@ -80,6 +80,11 @@ interattiva di selezione del PSP**
 L’evoluzione nel tempo del processo di pagamento è la seguente:
 
 .. figure:: ../diagrams/sd_pagamento_presso_ec.png
+   :alt: Pagamento presso EC.:raw-latex:`\label`(diagramma sequenza di
+   pagamento iniziato presso EC)
+
+   Pagamento presso EC.:raw-latex:`\label`(diagramma sequenza di
+   pagamento iniziato presso EC)
 
 **Figura** **1: Diagramma di sequenza del processo di pagamento iniziato
 presso l'EC**
@@ -276,12 +281,10 @@ l’\ *Acquirer* non autorizza il pagamento con carta.
 | st-condizione | rifiutato*                                           |
 +---------------+------------------------------------------------------+
 
-.. figure:: media_PagamentoPressoEnte/media/image2.png
-   :alt: SD_PRENOTAZIONE_RIFIUTATA
-   :width: 6.6875in
-   :height: 3.30208in
+.. figure:: ../diagrams/sdd_err_prenotazione.png
+   :alt: PRENOTAZIONE RIFIUTATA
 
-   SD_PRENOTAZIONE_RIFIUTATA
+   PRENOTAZIONE RIFIUTATA
 
 **Figura** **2: Diagramma di sequenza della prenotazione rifiutata**
 
@@ -334,12 +337,10 @@ riportate nel Paragrafo precedente.
 | ost-condizione |                                                     |
 +----------------+-----------------------------------------------------+
 
-.. figure:: media_PagamentoPressoEnte/media/image3.png
-   :alt: image2
-   :width: 6.68889in
-   :height: 2.4625in
+.. figure:: ../diagrams/sdd_err_RPT_rifiutata_PSP.png
+   :alt: RPT rifiutata
 
-   image2
+   RPT rifiutata
 
 **Figura** **3: Scenario RPT rifiutata dal Nodo**
 
@@ -432,12 +433,12 @@ rifiutato dal Nodo**
 | ost-condizione | rifiutato*                                          |
 +----------------+-----------------------------------------------------+
 
-.. figure:: media_PagamentoPressoEnte/media/image4.png
-   :alt: SD_ERR_PAGAMENTO_NON_CONTABILIZZATO
+.. figure:: ../diagrams/sdd_err_contabillizzaione.png
+   :alt: PAGAMNETO NON CONTABILIZZATO
    :width: 6.6875in
    :height: 5.97917in
 
-   SD_ERR_PAGAMENTO_NON_CONTABILIZZATO
+   PAGAMNETO NON CONTABILIZZATO
 
 **Figura** **4: Diagramma di sequenza del pagamento non contabilizzato**
 
@@ -516,12 +517,12 @@ Lo stato del pagamento transisce a *RT PSP.*
 | ost-condizione |                                                     |
 +----------------+-----------------------------------------------------+
 
-.. figure:: media_PagamentoPressoEnte/media/image5.png
-   :alt: SD_RT_RIFIUTATA_NODO
+.. figure:: ../diagrams/sdd_err_inviaRT_mod1.png
+   :alt: Rifutata Nodo
    :width: 4.11458in
    :height: 2.25in
 
-   SD_RT_RIFIUTATA_NODO
+   Rifutata Nodo
 
 **Figura** **5: Scenario RT rifiutata Nodo**
 
@@ -588,12 +589,12 @@ Nodo**
 | st-condizione |                                                      |
 +---------------+------------------------------------------------------+
 
-.. figure:: media_PagamentoPressoEnte/media/image6.png
-   :alt: sd_RT_RIUTATA_EC
+.. figure:: ../diagrams/sdd_err_inviaRT_EC.png
+   :alt: RT Rifutata EC
    :width: 5.72917in
    :height: 2.79167in
 
-   sd_RT_RIUTATA_EC
+   RT Rifutata EC
 
 **Figura** **6: Scenario RT rifiutata dall'EC**
 
