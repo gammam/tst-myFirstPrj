@@ -13,6 +13,8 @@ PSP -> NodoSPC : req nodoInviaFlussoRendicontazione
 ...
 PSP -> NodoSPC : req nodoChiediStatoElaborazioneFlussoRendicontazione
 NodoSPC -> NodoSPC : Controllo stato Elaborazione
-NodoSPC -[#blue]-> resp OK nodoChiediStatoElaborazioneFlussoRendicontazione
+NodoSPC -[#blue]-> PSP : resp OK nodoChiediStatoElaborazioneFlussoRendicontazione
 note right : FLUSSO_IN_ELABORAZIONE\nFLUSSO_ELABORATO
 PSP -> PSP : Gestione Stato
+
+@enduml

@@ -11,3 +11,6 @@ PSP -> NodoSPC : req nodoInviaFlussoRendicontazione
 NodoSPC -> NodoSPC : Verifica XML rendicontazione 
 NodoSPC -[#blue]-> PSP : resp KO nodoInviaFlussoRendicontazione 
 note left : PPT_FLUSSO_SCONOSCIUTO\nPPT_SEMANTICA
+
+
+@enduml

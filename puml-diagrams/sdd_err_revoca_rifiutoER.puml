@@ -11,3 +11,5 @@ EC -> NodoSPC: nodoInviaRispostaRevoca
 NodoSPC->NodoSPC:Valida ER
 NodoSPC-[#0000FF]->EC: respo KO nodoInviaRispostaRevoca
 note left:PPT_SINTASSI_EXTRAXSD\nPPT_SINTASSI_XSD\nPPT_ER_DUPLICATA\nPPT_RR_SCONOSCIUTA\nPPT_SEMANTICA\nPPT_CANALE_TIMEOUT
+
+@enduml

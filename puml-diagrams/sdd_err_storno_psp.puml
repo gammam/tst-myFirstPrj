@@ -15,3 +15,6 @@ note right: CANALE_RR_DUPLICATA\nCANALE_OPER_NON_STORNABILE\nCANALE_RT_SCONOSCIU
 NodoSPC-[#blue]->EC: resp KO nodoInviaRichiestaStorno
 note right : propaga errore
 EC -> Utente: Esito KO operazione
+
+
+@enduml

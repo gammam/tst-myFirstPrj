@@ -17,3 +17,5 @@ NodoSPC -[#blue]-> PSP : resp KO nodoInviaEsitoStorno
 note left : Propaga Errore - PPT_ERRORE_EMESSO_DA_PAA
 EC -> Utilizzatore_Finale : Esito
 
+
+@enduml

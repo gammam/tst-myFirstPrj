@@ -15,3 +15,5 @@ NodoSPC -[#blue]-> PSP : resp KO nodoInviaEsitoStorno
 
 note left:PPT_SINTASSI_EXTRAXSD\nPPT_SINTASSI_XSD\nPPT_ER_DUPLICATA\nPPT_RR_SCONOSCIUTA\nPPT_SEMANTICA
 
+
+@enduml

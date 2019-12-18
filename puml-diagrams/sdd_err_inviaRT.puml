@@ -24,3 +24,5 @@ end
 
 
 NodoSPC -> EC : req paaInviaRT
+
+@enduml

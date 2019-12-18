@@ -604,6 +604,6 @@ L’evoluzione temporale è la seguente:
 .. |image0| image:: ../diagrams/sd_pagamento_presso_ec.png
 .. |image1| image:: ../diagrams/sdd_err_prenotazione.png
 .. |image2| image:: ../diagrams/sdd_err_RPT_rifiutata_PSP.png
-.. |image3| image:: ../diagrams/sdd_err_contabillizzaione.png
+.. |image3| image:: ../diagrams/sdd_err_contabilizzaione.png
 .. |image4| image:: ../diagrams/sdd_err_inviaRT_mod1.png
 .. |image5| image:: ../diagrams/sdd_err_inviaRT_EC.png

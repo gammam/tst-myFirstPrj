@@ -14,3 +14,5 @@ note right:PAA_RT_SCONOSCIUTA\nPAA_SINTASSI_XSD\nPAA_SINTASSI_EXTRA_XSD\nPAA_SEM
 NodoSPC-[#0000FF]->PSP:resp KO nodoInviaRichiestaRevoca
 note right: PPT_ERRORE_EMESSO_DA_PAA\n(Propaga Errore)
 PSP-[#0000FF]->Utilizzatore_Finale: Esito KO
+
+@enduml

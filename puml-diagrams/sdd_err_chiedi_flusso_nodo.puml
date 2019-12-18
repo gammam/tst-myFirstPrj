@@ -12,3 +12,6 @@ participant EC
 EC -> NodoSPC : req nodoChiediElencoFlussiRendicontazione
 NodoSPC -> EC : resp KO nodoChiediElencoFlussiRendicontazione
 note left NodoSPC : PPT_SINTASSI_EXTRAXSD\nPPT_PSP_SCONOSCIUTO
+
+
+@enduml

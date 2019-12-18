@@ -30,3 +30,6 @@ NodoSPC -> NodoSPC : Timeout
 NodoSPC -[#blue]-> PSP : resp KO nodoInviaRT
 PSP -> PSP : ArchiviaRT
 end
+
+
+@enduml
