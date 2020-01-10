@@ -1,4 +1,5 @@
 ![pagoPA](_docs/media/pagoPA.png)
+MODIFIED by Mario
 
 # pagoPA, Specifiche Attuative del Nodo dei Pagamenti-SPC versione 2.2.6
 
