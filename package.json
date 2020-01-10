@@ -8,7 +8,7 @@
 	"md2rst" : "node script/md2rst.js",
 	"puml2png" :"node script/puml2png.js",
 	"build-media": "node script/media2media.js",
-	"start" : "npm run build-media "
+	"start" : "npm run build-media  && npm run md2rst"
   },
   "repository": {
     "type": "git",
