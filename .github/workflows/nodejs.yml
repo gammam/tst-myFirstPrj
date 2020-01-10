@@ -16,7 +16,7 @@ jobs:
     - name: Node App Helper Actions
       uses: guahanweb/actions/node-app@master
       with:
-        args: run build
+        args: run start
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
