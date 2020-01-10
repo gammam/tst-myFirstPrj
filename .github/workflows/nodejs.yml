@@ -24,6 +24,4 @@ jobs:
     - name: npm install
       run: |
         npm install
-        npm ci --if-present
-        npm run build --if-present
-        npm run md2rst
+        npm run start
