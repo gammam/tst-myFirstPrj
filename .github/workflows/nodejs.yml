@@ -25,3 +25,12 @@ jobs:
       run: |
         npm install
         npm run start
+    - name: push
+      uses: github-actions-x/commit@v2.4
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'publish documentation '
+        force-add: 'true'
+        name: workflow/pushAction
+        
