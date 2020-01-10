@@ -17,18 +17,13 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: pandoc
+      uses: r-lib/actions/setup-pandoc@v1
+      with:
+        pandoc-version: '2.8' # The pandoc version to download (if necessary) and use.:  
     - name: npm install
       run: |
         npm install
         npm ci --if-present
         npm run build --if-present
-    - name: pandoc
-      uses: r-lib/actions/setup-pandoc@v1
-      with:
-        pandoc-version: '2.8' # The pandoc version to download (if necessary) and use.
-    - name: Node App Helper Actions
-      uses: guahanweb/actions/node-app@master
-      with:
-        args: run md2rst
-      env:
-        CI: true
+        npm run md2rst
