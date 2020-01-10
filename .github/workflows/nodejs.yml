@@ -1,6 +1,6 @@
 name: Node CI
 
-on: [push]
+on: [pull_request]
 
 jobs:
   build:
@@ -22,10 +22,12 @@ jobs:
       with:
         pandoc-version: '2.8' # The pandoc version to download (if necessary) and use.:  
     - name: npm install
+      if: github.event.pull_request.merged
       run: |
         npm install
         npm run start
     - name: push
+      if: github.event.pull_request.merged
       uses: github-actions-x/commit@v2.4
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
